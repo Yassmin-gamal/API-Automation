@@ -51,8 +51,9 @@
 - encapsulate the elements in a separate class to improve the maintainability and readability of my code. This is often referred to as the Page Object Model (POM) pattern.
   
  1. POM Pattern of my Project :
+    
     ```css
-   APIs-Automation
+     APIs-Automation
        ├── pom.xml
        ├── testng.xml
        ├── src
