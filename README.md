@@ -53,30 +53,30 @@
  1. POM Pattern of my Project :
     ```css
    APIs-Automation
-     ├── pom.xml
-     ├── testng.xml
-     ├── src
-     │   ├── main
-     │   │   └── java
-     │   │       
-     │   │     
-     │   │       
-     │   └── test
-     │       └── java
-     │       │    └── Test1
-     │       │        └── authPOST
-     │       │        ├── bookingPOST
-     │       │        ├── bookingGET
-     │       │        └── GlobalVaiables          
-     │       │                      
-     │       │                          
-     │       │            . 
-     │       │               
-     │       └──resourses             
-     │                   └── bookingData.json
-     │                   └── body.json
-     │                        
-     └── README.md
+       ├── pom.xml
+       ├── testng.xml
+       ├── src
+       │   ├── main
+       │   │   └── java
+       │   │       
+       │   │     
+       │   │       
+       │   └── test
+       │       └── java
+       │       │    └── Test1
+       │       │        └── authPOST
+       │       │        ├── bookingPOST
+       │       │        ├── bookingGET
+       │       │        └── GlobalVaiables          
+       │       │                      
+       │       │                          
+       │       │            . 
+       │       │               
+       │       └──resourses             
+       │                   └── bookingData.json
+       │                   └── body.json
+       │                        
+       └── README.md
 
 
 ## Clone the Repository
@@ -102,6 +102,7 @@
 
 ## TestNG Reports
 - Run 3 tests in parallel as specified in the testng.xml file.
+- 
 ![test1](https://github.com/user-attachments/assets/d215d8b6-1fba-42e4-a9c1-09c71257dabb)
 
 
