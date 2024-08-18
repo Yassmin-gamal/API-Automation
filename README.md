@@ -105,21 +105,23 @@
 
 ## Validation for Test Cases
 1- authPOST
-               ```sh
-              // Validate response status code
-               Assert.assertEquals(response.getStatusCode(), 200);
-              // Validate response not empty
-                Assert.assertFalse(response.getBody().asString().isEmpty());
-              // access token from response
-               JSONObject responseBody = new JSONObject(response.getBody().asString());
-               String token = responseBody.getString("token");
+            ```sh
+                 // Validate response status code
+                     Assert.assertEquals(response.getStatusCode(), 200);
+               
+                // Validate response not empty
+                  Assert.assertFalse(response.getBody().asString().isEmpty());
+                
+               // access token from response
+                  JSONObject responseBody = new JSONObject(response.getBody().asString());
+                  String token = responseBody.getString("token");
         
-             // Validate token is not empty or null
-            Assert.assertNotNull(token, "Token is null");
-            Assert.assertFalse(token.isEmpty(), "Token is empty");
+               // Validate token is not empty or null
+                Assert.assertNotNull(token, "Token is null");
+                Assert.assertFalse(token.isEmpty(), "Token is empty");
         
-            // Save token in global variable for using it later
-              GlobalVariables.Token = token;
+              // Save token in global variable for using it later
+                  GlobalVariables.Token = token;
 
 ## TestNG Reports
 - Run 3 tests in parallel as specified in the testng.xml file.
