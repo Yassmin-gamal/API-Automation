@@ -10,6 +10,6 @@
 - [Running the Tests](#running-the-tests)
   - [Using IDE](#using-ide)
   - [Using Maven](#using-maven)
-- [Future Consideration: Enhancing API Security with Token-Based Authorization](#Future-Consideration:Enhancing-API-Security-with-Token-Based-Authorization)
+- [Future Consideration: Enhancing API Security with Token-Based Authorization](#Enhancing-API-Security-with-Token-Based-Authorization)
 - [TestNG Reports](#TestNG-Reports)
 - [Demo Videos ](#Demo-Videos) 
