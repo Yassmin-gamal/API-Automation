@@ -12,7 +12,7 @@
   - [Using Maven](#using-maven)
 - [Future Consideration: Enhancing API Security with Token-Based Authorization](#Enhancing-API-Security-with-Token-Based-Authorization)
 - [TestNG Reports](#TestNG-Reports)
-- [Demo Videos ](#Demo-Videos) 
+- [Demo Videos](#Demo-Videos) 
 
 ## Overview 
 - This project demonstrates API testing using Java with Rest Assured and TestNG. 
@@ -100,10 +100,29 @@
 
 ## Future Consideration: Enhancing API Security with Token-Based Authorization
 - Currently, the API endpoints for operations such as retrieving lists and posting bookings are accessible without additional security measures. To further strengthen the security of our APIs, I would suggest implementing token-based authorization
+- The retrieved token is stored in a global variable, allowing it to be reused across different test cases. This approach ensures that all subsequent API requests to secured endpoints include the necessary authorization token.
 
 ## TestNG Reports
 - Run 3 tests in parallel as specified in the testng.xml file.
-- 
+  
 ![test1](https://github.com/user-attachments/assets/d215d8b6-1fba-42e4-a9c1-09c71257dabb)
 
+## Demo Videos
+
+1- Scenario 1: 
+
+https://github.com/user-attachments/assets/470ac852-570b-4296-8015-df4f0280cf31
+
+2- Scenario 2 : 
+
+https://github.com/user-attachments/assets/225e1f4d-2a4b-4714-87e9-3ca09a2adf10
+
+3- Scenario 3 :
+
+https://github.com/user-attachments/assets/b93edeae-377b-4620-aaec-6b47d30fca81
+
+4- 3 tests in parallel : 
+
+
+https://github.com/user-attachments/assets/2593ea25-4115-4afc-ac9e-e64c144991e6
 
