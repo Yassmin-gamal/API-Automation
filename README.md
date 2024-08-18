@@ -53,30 +53,30 @@
  1. POM Pattern of my Project :
     ```css
    APIs-Automation
-   ├── pom.xml
-   ├── testng.xml
-   ├── src
-   │   ├── main
-   │   │   └── java
-   │   │       
-   │   │     
-   │   │       
-   │   └── test
-   │       └── java
-   │       │    └── Test1
-   │       │        └── authPOST
-   │       │        ├── bookingPOST
-   │       │        ├── bookingGET
-   │       │        └── GlobalVaiables          
-   │       │                      
-   │       │                          
-   │       │            . 
-   │       │               
-   │       └──resourses             
-   │                   └── bookingData.json
-   │                   └── body.json
-   │                        
-   └── README.md
+    ├── pom.xml
+    ├── testng.xml
+    ├── src
+    │   ├── main
+    │   │   └── java
+    │   │       
+    │   │     
+    │   │       
+    │   └── test
+    │       └── java
+    │       │    └── Test1
+    │       │        └── authPOST
+    │       │        ├── bookingPOST
+    │       │        ├── bookingGET
+    │       │        └── GlobalVaiables          
+    │       │                      
+    │       │                          
+    │       │            . 
+    │       │               
+    │       └──resourses             
+    │                   └── bookingData.json
+    │                   └── body.json
+    │                        
+    └── README.md
 
 
 ## Clone the Repository
