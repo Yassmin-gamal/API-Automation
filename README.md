@@ -32,9 +32,9 @@
 - [Rest Assured](https://rest-assured.io/)
 
 ## Features
-1- Parallel Test Execution: Configured to run 3 tests in parallel using TestNG.
-2- Page Object Model (POM): Implements the POM pattern for organizing test code.
-3- Data-Driven Testing: Uses external data files for dynamic testing.
+1. Parallel Test Execution: Configured to run 3 tests in parallel using TestNG.
+2. Page Object Model (POM): Implements the POM pattern for organizing test code.3
+3. Data-Driven Testing: Uses external data files for dynamic testing.
 
 ## Project Layout
 1- src/test/java/test1:
