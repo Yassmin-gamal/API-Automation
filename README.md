@@ -51,7 +51,7 @@
 - encapsulate the elements in a separate class to improve the maintainability and readability of my code. This is often referred to as the Page Object Model (POM) pattern.
   
  1. POM Pattern of my Project :
-   ```css
+    ```css
    APIs-Automation
    ├── pom.xml
    ├── testng.xml
@@ -65,16 +65,42 @@
    │       └── java
    │       │    └── Test1
    │       │        └── authPOST
-   │       │        ├──  bookingPOST
+   │       │        ├── bookingPOST
    │       │        ├── bookingGET
-   │       │        └──GlobalVaiables          
+   │       │        └── GlobalVaiables          
    │       │                      
    │       │                          
    │       │            . 
    │       │               
    │       └──resourses             
-   │                   └──bookingData.json
+   │                   └── bookingData.json
    │                   └── body.json
    │                        
    └── README.md
+
+## Clone the Repository
+1. Clone:
+
+   ```sh
+   git clone https://github.com/Yassmin-gamal/API-Automation.git
+   cd API-Automation
+
+## Running the Tests
+
+### Using IDE
+   Open testng.xml in your IDE.
+   Right-click on testng.xml and select "Run 'testng.xml'".
+
+### Using Maven
+1. Maven Test
+   ```sh
+   mvn test
+
+## Future Consideration: Enhancing API Security with Token-Based Authorization
+- Currently, the API endpoints for operations such as retrieving lists and posting bookings are accessible without additional security measures. To further strengthen the security of our APIs, I would suggest implementing token-based authorization
+
+## TestNG Reports
+- Run 3 tests in parallel as specified in the testng.xml file.
+![test1](https://github.com/user-attachments/assets/d215d8b6-1fba-42e4-a9c1-09c71257dabb)
+
 
