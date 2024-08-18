@@ -105,7 +105,7 @@
 
 ## Validation for Test Cases
 1- authPOST
-       ```sh
+               ```sh
             // Validate response status code
                Assert.assertEquals(response.getStatusCode(), 200);
             // Validate response not empty
@@ -114,7 +114,7 @@
                JSONObject responseBody = new JSONObject(response.getBody().asString());
                String token = responseBody.getString("token");
         
-           // Validate token is not empty or null
+             // Validate token is not empty or null
             Assert.assertNotNull(token, "Token is null");
             Assert.assertFalse(token.isEmpty(), "Token is empty");
         
