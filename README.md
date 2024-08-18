@@ -11,6 +11,7 @@
   - [Using IDE](#using-ide)
   - [Using Maven](#using-maven)
 - [Future Consideration: Enhancing API Security with Token-Based Authorization](#Enhancing-API-Security-with-Token-Based-Authorization)
+- [Validation for Test Cases](#Validation-for-Test-Cases)
 - [TestNG Reports](#TestNG-Reports)
 - [Demo Videos](#Demo-Videos) 
 
@@ -101,6 +102,24 @@
 ## Future Consideration: Enhancing API Security with Token-Based Authorization
 - Currently, the API endpoints for operations such as retrieving lists and posting bookings are accessible without additional security measures. To further strengthen the security of our APIs, I would suggest implementing token-based authorization
 - The retrieved token is stored in a global variable, allowing it to be reused across different test cases. This approach ensures that all subsequent API requests to secured endpoints include the necessary authorization token.
+
+## Validation for Test Cases
+1- authPOST
+       ```sh
+            // Validate response status code
+        Assert.assertEquals(response.getStatusCode(), 200);
+        // Validate response not empty
+        Assert.assertFalse(response.getBody().asString().isEmpty());
+        // access token from response
+        JSONObject responseBody = new JSONObject(response.getBody().asString());
+        String token = responseBody.getString("token");
+        
+        // Validate token is not empty or null
+        Assert.assertNotNull(token, "Token is null");
+        Assert.assertFalse(token.isEmpty(), "Token is empty");
+        
+        // Save token in global variable for using it later
+        GlobalVariables.Token = token;
 
 ## TestNG Reports
 - Run 3 tests in parallel as specified in the testng.xml file.
