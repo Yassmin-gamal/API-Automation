@@ -10,7 +10,7 @@
 - [Running the Tests](#running-the-tests)
   - [Using IDE](#using-ide)
   - [Using Maven](#using-maven)
-- [Future Consideration: Enhancing API Security with Token-Based Authorization](#Enhancing-API-Security-with-Token-Based-Authorization)
+- [Enhancing API Security with Token-Based Authorization](#Enhancing-API-Security-with-Token-Based-Authorization)
 - [Validation for Test Cases](#Validation-for-Test-Cases)
 - [TestNG Reports](#TestNG-Reports)
 - [Demo Videos](#Demo-Videos) 
@@ -99,7 +99,7 @@
    ```sh
    mvn test
 
-## Future Consideration: Enhancing API Security with Token-Based Authorization
+## Enhancing API Security with Token-Based Authorization
 - Currently, the API endpoints for operations such as retrieving lists and posting bookings are accessible without additional security measures. To further strengthen the security of our APIs, I would suggest implementing token-based authorization
 - The retrieved token is stored in a global variable, allowing it to be reused across different test cases. This approach ensures that all subsequent API requests to secured endpoints include the necessary authorization token.
 
