@@ -106,8 +106,7 @@
 ## Validation for Test Cases
 1- authPOST
       ```sh
-                 // Validate response status code
-                     Assert.assertEquals(response.getStatusCode(), 200);
+ 
                
                 // Validate response not empty
                   Assert.assertFalse(response.getBody().asString().isEmpty());
