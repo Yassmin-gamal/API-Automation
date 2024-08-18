@@ -105,14 +105,16 @@
 
 ## Validation for Test Cases
 1- authPOST
+
 ![WhatsApp Image 2024-08-18 at 9 20 35 PM](https://github.com/user-attachments/assets/2dea79e1-f132-4049-9641-cfe0771bb67a)
 
-
 2- bookingGET
+
 ![cxz](https://github.com/user-attachments/assets/46940fe1-33e3-43e0-8a3d-2df95e898229)
 
 
 3- bookingGET
+
 ![WhatsApp Image 2024-08-18 at 9 21 01 PM](https://github.com/user-attachments/assets/65bbb6f6-8166-48ce-86af-1bde31303dc5)
 
 
